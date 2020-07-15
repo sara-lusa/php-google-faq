@@ -124,7 +124,12 @@ $array_qa = [
 
       <main>
         <ul>
-
+          <?php foreach ($array_qa as $single_qa) { ?>
+            <li>
+              <h2><?php echo $single_qa['question']; ?></h2>
+              <p><?php echo $single_qa['answer'] ?></p>
+            </li>
+          <?php } ?>
         </ul>
       </main>
 
