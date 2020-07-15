@@ -11,17 +11,65 @@ body {
 .wrapper {
   width: 100%;
   height: 100vh;
+  color: #7a7a7a;
 }
 
 ul {
   list-style-type: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  padding: 0 30px;
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid #3c4043;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+.up-part {
+  height: 60px;
+  line-height: 60px;
+}
+
+.up-part img {
+  vertical-align: middle;
+}
+
+.up-part h2 {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+nav {
+  height: 50px;
+  line-height: 50px;
+}
+
+.menu li {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+.account {
+  display: inline-block;
+  float: right;
+}
+
 main {
   width: 75%;
   margin: 0 auto;
-  /* background-color: coral; */
-  height: 100%;
+  margin-top: 110px;
+  height: calc(100% - 110px);
+  padding-top: 40px;
 }
 
 .list-qa {
@@ -37,7 +85,6 @@ main {
 .list-qa p {
   line-height: 27px;
   font-size: 14px;
-  color: #7a7a7a;
 }
 
 .list-qa p span {

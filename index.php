@@ -114,13 +114,33 @@ $array_qa = [
     <div class="wrapper">
       <header>
         <div class="up-part">
-          <img src="" alt="Logo">
-          <h2></h2>
-
-          <nav>
-            <ul class="menu"></ul>
-          </nav>
+          <img src="img/logo.png" alt="Logo">
+          <h2>Privacy e termini</h2>
         </div>
+
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="#">Introduzione</a>
+            </li>
+            <li>
+              <a href="#">Norme sulla privacy</a>
+            </li>
+            <li>
+              <a href="#">Termini di servizio</a>
+            </li>
+            <li>
+              <a href="#">Tecnologie</a>
+            </li>
+            <li>
+              <a href="#">Domande Frequenti</a>
+            </li>
+          </ul>
+
+          <div class="account">
+            <a href="#">Account Google</a>
+          </div>
+        </nav>
       </header>
 
       <main>
