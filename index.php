@@ -154,7 +154,36 @@ $array_qa = [
         </ul>
       </main>
 
-      <footer></footer>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-menu">
+            <ul>
+              <li>
+                <a href="#">Google</a>
+              </li>
+              <li>
+                <a href="#">Tutto su Google</a>
+              </li>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                <a href="#">Termini</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="lang">
+            <select>
+              <option value="italiano">Italiano</option>
+              <option value="francese">Francesce</option>
+              <option value="inglese">Inglese</option>
+              <option value="spagnolo">Spagnolo</option>
+              <option value="cinese">Cinese</option>
+            </select>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
